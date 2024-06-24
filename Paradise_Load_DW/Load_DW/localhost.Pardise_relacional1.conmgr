@@ -1,0 +1,10 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="localhost.Pardise_relacional1"
+  DTS:DTSID="{1A4E1F37-B411-46E9-A751-B1EC7D3F6264}"
+  DTS:CreationName="ADO">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectionString="Data Source=localhost;Initial Catalog=Pardise_relacional;Provider=MSOLEDBSQL.1;Integrated Security=SSPI;Application Name=SSIS-Load_DW-{1A4E1F37-B411-46E9-A751-B1EC7D3F6264}localhost.Pardise_relacional1;Auto Translate=False;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>

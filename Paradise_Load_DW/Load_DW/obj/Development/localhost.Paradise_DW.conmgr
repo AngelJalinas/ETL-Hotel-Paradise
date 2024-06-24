@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="localhost.Paradise_DW"
+  DTS:DTSID="{BAEAAD31-DF5E-41EA-A9EC-5E3E76397C94}"
+  DTS:CreationName="ADO">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectionString="Data Source=localhost;Initial Catalog=Paradise_DW;Provider=MSOLEDBSQL.1;Integrated Security=SSPI;Application Name=SSIS-Load_DW-{BAEAAD31-DF5E-41EA-A9EC-5E3E76397C94}localhost.Paradise_DW;Auto Translate=False;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>

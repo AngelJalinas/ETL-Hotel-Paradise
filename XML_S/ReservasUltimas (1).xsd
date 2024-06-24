@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="ReservasUltimas">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" name="record">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" name="Reservacion_ID" type="xs:unsignedShort" />
+              <xs:element minOccurs="0" name="Cliente_ID" type="xs:unsignedShort" />
+              <xs:element minOccurs="0" name="Paquete_ID" type="xs:unsignedByte" />
+              <xs:element minOccurs="0" name="Habitacion_ID" type="xs:unsignedShort" />
+              <xs:element minOccurs="0" name="Intermediario_ID" type="xs:unsignedByte" />
+              <xs:element minOccurs="0" name="Fecha_ID" type="xs:unsignedShort" />
+              <xs:element minOccurs="0" name="Metodo_Pago" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
