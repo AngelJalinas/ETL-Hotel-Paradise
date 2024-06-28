@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34902.65
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{C9674DCB-5085-4A16-B785-4C70DD1589BD}") = "Relacional", "Relacional\Relacional.dtproj", "{4E62BF73-3426-46B4-AC2E-2D808DBB48C4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4E62BF73-3426-46B4-AC2E-2D808DBB48C4}.Development|Default.ActiveCfg = Development
+		{4E62BF73-3426-46B4-AC2E-2D808DBB48C4}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D1145C08-6CF2-4F06-86A7-B2F6B09C8853}
+	EndGlobalSection
+EndGlobal
